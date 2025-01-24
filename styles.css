@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #472c7b;
+  margin: 0;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+#popout-header {
+  background-color: #583994;
+  width: 320px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Jersey 20", serif;
+  font-style: normal;
+  color: white;
+  font-size: 22px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 200px;
+  text-align: center;
+}
+
+#searching-prompt,
+#search-disabled--prompt {
+  font-family: "Jersey 20", serif;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
