@@ -1,0 +1,1 @@
+# GameScanner-Extension
